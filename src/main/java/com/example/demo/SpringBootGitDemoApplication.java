@@ -10,6 +10,7 @@ public class SpringBootGitDemoApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run=SpringApplication.run(SpringBootGitDemoApplication.class, args);
 		run.close();
+		//Changes for HIS-134
 	}
 
 }
